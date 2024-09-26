@@ -1,0 +1,101 @@
+.orderbook-container {
+  background-color: #131722;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "Arial", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.orderbook {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.orderbook-column {
+  flex: 1;
+}
+
+.orderbook-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-weight: bold;
+  border-bottom: 2px solid #2b2b2b;
+}
+
+.orderbook-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #2b2b2b;
+}
+
+.orderbook-row span {
+  width: 33%;
+  text-align: center;
+}
+
+.buy {
+  color: #00ff00;
+}
+
+.sell {
+  color: #ff0000;
+}
+
+.orderbook-actions {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.toggle-feed {
+  background-color: #6a5acd;
+  color: white;
+}
+
+.kill-feed {
+  background-color: #ff4b4b;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.orderbook-group-select {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+.orderbook-group-select label {
+  margin-right: 8px;
+  color: white;
+}
+
+.orderbook-group-select select {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #2b2b2b;
+  color: white;
+  border: 1px solid #6a5acd;
+}
