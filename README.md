@@ -4,7 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+### `npx create-react-app live-orderbook --template typescript`
+
+### `npm install websocket`
 
 ### `npm start`
 
